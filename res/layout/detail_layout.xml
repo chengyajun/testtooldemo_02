@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="50dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="应用名称"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/battery_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="耗电量："
+        android:textColor="#666"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cpu_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="当前CPU占用率"
+        android:textColor="#666"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ram_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="当前程序占用内存"
+        android:textColor="#666"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/traffic_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="WIFI:  3G:"
+        android:textColor="#666"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/control_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:text="开始检测" />
+
+</LinearLayout>
